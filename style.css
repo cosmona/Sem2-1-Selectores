@@ -8,11 +8,13 @@ body {
   font-family: sans-serif;
 }
 
-body > header {
+header {
   background-color: #6395ec;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; */
+  text-align: center;
+  margin-top: 0px;
 }
 
 h1 {
@@ -43,10 +45,11 @@ th,
 td {
   padding: 12px;
 }
-tr:nth-child(odd) {
+
+tr:nth-child(odd) > td {
   background-color: #d7e5ff;
 }
-tr:nth-child(even) {
+tr:nth-child(even) > td {
   background-color: #abc6fb;
 }
 
@@ -56,12 +59,13 @@ thead > tr > th {
 }
 
 tbody tr:nth-child(odd) th {
-  background-color: #a5bff5;
+  background-color: #a5bef57c;
 }
 tbody tr:nth-child(even) th {
-  background-color: #89b2f2;
+  background-color: #89b1f280;
 }
 #descanso {
   font-weight: 700;
   text-align: center;
+  text-transform: uppercase;
 }
